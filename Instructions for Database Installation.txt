@@ -1,0 +1,29 @@
+How to install SQL Database & PassPRO Password Maanager with Server Configuration.
+-----------------------------------------------------------------------------------
+
+1. Install the SQL Server Express (SQLServer2017-SSEI-Expr.exe).
+
+2. Then install the SQL Server Management Studio (SSMS-Setup-ENU.exe).
+
+3. In the SSMS press connect for the SQL Server login, then look for the "Databases" tab  in the
+Object Explorer.
+
+4. Right click and select "Restore Database...."
+
+5. Then click on "Device", and press the "..." button on the far right of the screen
+
+6. Browse for the Passwords.bak file that is included in this installation.
+
+7. Then after the database has been created, install PassPRO Password Manager.
+
+8. When the application is installed, open up the application and you will see the SERVER CONFIGURATION window.
+
+9. Make sure the SERVER NAME matches that of your server in SSMS.
+
+10. Type in the DATABASE NAME which matches the name of your database which in this case it is "Passwords".
+
+11. Click on SAVE and then CONNECT to access the lOGIN screen.
+
+12. Click on CREATE ACCOUNT and make up a username and password that you can REMEMBER!
+
+13. Once you have chosen a username and password, you can log in and begin adding new passwords.
